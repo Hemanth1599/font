@@ -34,7 +34,7 @@ function gotPoses(results){
 
 function draw(){
     background('#DDBCB5');
-    document.getElementById("empty").innerHTML = "width and height of the square is " + difference + "px";
+    document.getElementById("empty").innerHTML = "width and height of the text is " + difference + "px";
     textSize(difference);
     fill('#BDEA02');
     stroke('#C16F5D');
